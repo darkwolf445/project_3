@@ -1,5 +1,3 @@
-a = int(input("Введите первое число\n"))
-b = int(input("Введите второе число\n"))
 
-c = a - b
-print(f"Ответ при вычитании: {c}")
+def plus(a, b):
+    return a + b
