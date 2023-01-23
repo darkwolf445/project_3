@@ -1,7 +1,12 @@
-from funcs import plus, minus
+from test import plus
 
-a = int(input("Введите первое число\n"))
-b = int(input("Введите второе число\n"))
+for i in range(1, 10):
+    if i >= 9:
+        print(i)
+    else:
+        print(i, end=', ')
+
+a = 5
+b = 3
 
 print(plus(a, b))
-print(minus(a, b))
